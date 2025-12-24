@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/24330530/README.md)
 # Welcome to your Lovable project
 
 ## Project info

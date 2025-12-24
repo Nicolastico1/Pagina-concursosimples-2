@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <title>Concurso Simples | Plataforma de Estudos para Concursos Militares</title>
+    <meta name="description" content="A plataforma especializada em concursos militares ESA, EsPCEx, EEAR e Marinha. Cronograma inteligente, simulados reais e IA que corrige seus erros." />
+    <meta name="author" content="Concurso Simples" />
+    <meta name="keywords" content="concurso militar, ESA, EsPCEx, EEAR, Marinha, estudos, aprovação, simulado" />
+
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <!-- DNS Prefetch for third-party resources -->
+    <link rel="dns-prefetch" href="https://pay.kiwify.com.br" />
+    
+    <!-- Preload critical fonts -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" as="style" />
+
+    <meta property="og:title" content="Concurso Simples | Sua aprovação no concurso militar começa aqui" />
+    <meta property="og:description" content="Plataforma especializada em concursos militares com cronograma inteligente, simulados reais e IA." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@ConcursoSimples" />
+    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <meta name="twitter:title" content="Concurso Simples | Aprovação em Concursos Militares" />
+    <meta name="twitter:description" content="Estude com método para ESA, EsPCEx, EEAR e Marinha." />
+    <link rel="canonical" href="https://concursosimples.com.br" />
+
+    <!-- Theme color for mobile browsers -->
+    <meta name="theme-color" content="#0088cc" />
+
+    <!-- Meta Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1216190286869709');
+    fbq('track', 'PageView');
+    </script>
+    <!-- End Meta Pixel Code -->
+
+    <!-- Microsoft Clarity -->
+    <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "uq1s4k7up7");
+    </script>
+    <!-- End Microsoft Clarity -->
+
+    <!-- UTMify -->
+    <script
+      src="https://cdn.utmify.com.br/scripts/utms/latest.js"
+      data-utmify-prevent-xcod-sck
+      data-utmify-prevent-subids
+      async
+      defer
+    ></script>
+    <script>
+      window.pixelId = "683b2b1ea204faaa7bce5c89";
+      var a = document.createElement("script");
+      a.setAttribute("async", "");
+      a.setAttribute("defer", "");
+      a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+      document.head.appendChild(a);
+    </script>
+    <!-- End UTMify -->
+
+    <!-- Lenis Smooth Scroll -->
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.18/dist/lenis.css">
+    <script defer src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        const lenis = new Lenis({
+          duration: 1.2,
+          easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+          orientation: 'vertical',
+          gestureOrientation: 'vertical',
+          smoothWheel: true,
+          wheelMultiplier: 1,
+          smoothTouch: false,
+          touchMultiplier: 2,
+          infinite: false,
+        });
+
+        function raf(time) {
+          lenis.raf(time);
+          requestAnimationFrame(raf);
+        }
+
+        requestAnimationFrame(raf);
+      });
+    </script>
+    <!-- End Lenis Smooth Scroll -->
+  </head>
+
+  <body>
+    <!-- Meta Pixel noscript fallback -->
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=1216190286869709&ev=PageView&noscript=1"
+    /></noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
